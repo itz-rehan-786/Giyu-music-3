@@ -6,14 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 24172384
+API_HASH = "05d396570a9d94d816c6aa92490b5c24"
+BOT_TOKEN = "7202830951:AAG1HBeTTnbyDRY_8VuIQ4MRqywECpY75qY"
+MONGO_DB_URI = "mongodb+srv://sahuratnakara7:sahuratnakara7@cluster0.z0814bv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
-
+LOG_GROUP_ID = 1997946841
+OWNER_ID = 6345160146
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -29,8 +28,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("https://t.me/prediction_bigmumbai_group", "")
+SUPPORT_GROUP = getenv("https://t.me/prediction_bigmumbai_group", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -52,7 +51,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "1BVtsOIgBu4UuR90XPlpG7kYZK_kpNF3u1wlI_s3dW6rFuqRIALZ1XYKcJ6I_nIJlWFD9RX1NCnwSo-QL-5PIIPfeWq75swgkiLqri_4SYiT-4MOeUQdQe22mfQRXKL3fW88r9RC4K3Xc86z-GRpkP3M55XWP5tvJYtcSad3kDBgybZUAsCgx8dRX3DHY3P5iddgwBhqvXspgy-eBnYSwcXOTJZlfS1q_ELRawH4LvqtVPJQg0z02ClpqrDwL875yyNDekvjs7tLvMEiRf0h7gkN-Ip5m5k3QrvP_MT1acBoLaL_5ABV5ef3Jyfh0HzFoTL8GT3WiU25Z1VMzO-y1Vo7I8u0lVgA="
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -68,7 +67,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "START_IMG_URL", "https://graph.org/file/bb6b6e68805ddc5e8de25.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
