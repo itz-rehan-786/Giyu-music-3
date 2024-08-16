@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 24172384
-API_HASH = "05d396570a9d94d816c6aa92490b5c24"
-BOT_TOKEN = "7202830951:AAG1HBeTTnbyDRY_8VuIQ4MRqywECpY75qY"
-MONGO_DB_URI = "mongodb+srv://sahuratnakara7:sahuratnakara7@cluster0.z0814bv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+API_ID = 28005065
+API_HASH = "e911a7e37e4733ff4a1ca4fbacc4065e"
+BOT_TOKEN = "7388736895:AAF1NXl0ecsagFWcyxcwNZMiikIqgTMBDGg"
+MONGO_DB_URI = "mongodb+srv://wangling01:wangling@cluster0.trgu2ty.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 1997946841
-OWNER_ID = 6345160146
+LOG_GROUP_ID = -1002172527291
+OWNER_ID = 7316912610
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
