@@ -28,8 +28,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("https://t.me/anime_verse8", "")
-SUPPORT_GROUP = getenv("https://t.me/anime_verse8", "")
+SUPPORT_CHANNEL = getenv("https://t.me/land_of_hunters", "")
+SUPPORT_GROUP = getenv("https://t.me/land_of_hunters", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -51,7 +51,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQGrUskAHaf2rylGlovRegU7QhXxMHlsZJ55ZoWep-VVSQG018THM_HtRp8WEwvLkmZkG9T5MkjXVWqnT1B_aUr3j8KEojzzxnYQJpD2bkJJFEO-FW167k-tzmpqNg02Tq4XtwNQ1_rceIMLxV_6RYnFzK-tSr72nrBSyVe1tOimDU2WNZmqRkMeb2RqPlfwaoGZFVYYYBCZJiRK_jPrzPEt6lHsVhFjYsQ6bVxyTGxT4wOq7m7aPljXvJgZqsVaBFKvpbVD0M_-7gOULUW4FNq8o-J0TL3PiYsGyzRaNrkE_m2xfFZFBAjYywC72Nuymq2NUIJg9drTbIDketkmW73YAVGvhwAAAAG0HzniAA"
+STRING1 = "1BVtsOLoBuyYipvzAsfDDCexH6pbcWOnLoI3MrI3uTG0iRiEuVEoIELyvxP7oS4jFpjFW-NnMvr0caSB42saK675yFCA3pHNEAUerHrTfJkslTKxfvCMwuGmJAOpOofrShMnZfnypxLa_d97BG1LEeeYiuUUnVNcHVh-JGw5wjflvtlalhqWjbXl6XYugx97dh-spjX3wLhb2epZM2Suu0SwV43tzR8Ap_dbJdYxwTqW6dB1tnRUhybIoiphJpsQb3lfNv8fr9GaFjPrektEmIIosjvKywV6sVi7GWuZuhKxKf817impEffiLX61-ZG5f3UOXv-rMl356NXfLbOaAxGLtqehMOpk="
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
